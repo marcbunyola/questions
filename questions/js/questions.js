@@ -55,7 +55,7 @@ function gestionarXml(dadesXml){
 
  //CHECKBOX
  //Recuperamos el título y las opciones, guardamos las respuestas correctas
- var tituloCheckbox = xmlDoc.getElementsByTagName("title")[2].innerHTML;
+ var tituloCheckbox = xmlDoc.getElementsByTagName("title")[3].innerHTML;
  var opcionesCheckbox = [];
  var nopt = xmlDoc.getElementById("jklm_005").getElementsByTagName('option').length;
  for (i = 0; i < nopt; i++) { 
