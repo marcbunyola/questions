@@ -26,7 +26,7 @@ window.onload = function(){
    gestionarXml(this);
   }
  };
- xhttp.open("GET", "xml/preguntas.xml", true);
+ xhttp.open("GET", "xml/questions.xml", true);
  xhttp.send();
 }
 
@@ -57,14 +57,14 @@ function gestionarXml(dadesXml){
  //Recuperamos el título y las opciones, guardamos las respuestas correctas
  var tituloCheckbox = xmlDoc.getElementsByTagName("title")[2].innerHTML;
  var opcionesCheckbox = [];
- var nopt = xmlDoc.getElementById("profe_003").getElementsByTagName('option').length;
+ var nopt = xmlDoc.getElementById("jklm_005").getElementsByTagName('option').length;
  for (i = 0; i < nopt; i++) { 
-    opcionesCheckbox[i]=xmlDoc.getElementById("profe_003").getElementsByTagName('option')[i].innerHTML;
+    opcionesCheckbox[i]=xmlDoc.getElementById("jklm_005").getElementsByTagName('option')[i].innerHTML;
  }  
  ponerDatosCheckboxHtml(tituloCheckbox,opcionesCheckbox);
- var nres = xmlDoc.getElementById("profe_003").getElementsByTagName('answer').length;
+ var nres = xmlDoc.getElementById("jklm_005").getElementsByTagName('answer').length;
  for (i = 0; i < nres; i++) { 
-  respuestasCheckbox[i]=xmlDoc.getElementById("profe_003").getElementsByTagName("answer")[i].innerHTML;
+  respuestasCheckbox[i]=xmlDoc.getElementById("jklm_005").getElementsByTagName("answer")[i].innerHTML;
  }
 }
 
