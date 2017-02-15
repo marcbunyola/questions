@@ -1,5 +1,5 @@
 var formElement=null;
-var numeroSecreto=null;
+var respuestaNumber=null;
 var respuestaSelect=null;
 var respuestasCheckbox = [];
 var nota = 0;  //nota de la prueba sobre 3 puntos (hay 3 preguntas)
@@ -38,7 +38,7 @@ function gestionarXml(dadesXml){
  
  //NUMBER
  //Recuperamos el título y la respuesta correcta de Input, guardamos el número secreto
- var tituloInput=xmlDoc.getElementsByTagName("title")[3].innerHTML;
+ var pregunta4=xmlDoc.getElementsByTagName("title")[3].innerHTML;
  ponerDatosInputHtml(tituloInput);
  respuestaNumber=parseInt(xmlDoc.getElementsByTagName("answer")[3].innerHTML);
 
@@ -47,27 +47,27 @@ function gestionarXml(dadesXml){
  
  //SELECT
  //Recuperamos el título y las opciones, guardamos la respuesta correcta
- var tituloSelect=xmlDoc.getElementsByTagName("title")[1].innerHTML;
+ var tituloSelect=xmlDoc.getElementsByTagName("title")[6].innerHTML;
  var opcionesSelect = [];
- var nopt = xmlDoc.getElementById("profe_002").getElementsByTagName('option').length;
+ var nopt = xmlDoc.getElementById("jklm_007").getElementsByTagName('option').length;
   for (i = 0; i < nopt; i++) { 
-    opcionesSelect[i] = xmlDoc.getElementById("profe_002").getElementsByTagName('option')[i].innerHTML;
+    opcionesSelect[i] = xmlDoc.getElementById("jklm_007").getElementsByTagName('option')[i].innerHTML;
  }
  ponerDatosSelectHtml(tituloSelect,opcionesSelect);
- respuestaSelect=parseInt(xmlDoc.getElementsByTagName("answer")[1].innerHTML);
+ respuestaSelect=parseInt(xmlDoc.getElementsByTagName("answer")[6].innerHTML);
 
  //CHECKBOX
  //Recuperamos el título y las opciones, guardamos las respuestas correctas
- var tituloCheckbox = xmlDoc.getElementsByTagName("title")[2].innerHTML;
+ var tituloCheckbox = xmlDoc.getElementsByTagName("title")[4].innerHTML;
  var opcionesCheckbox = [];
- var nopt = xmlDoc.getElementById("profe_003").getElementsByTagName('option').length;
+ var nopt = xmlDoc.getElementById("jklm_005").getElementsByTagName('option').length;
  for (i = 0; i < nopt; i++) { 
-    opcionesCheckbox[i]=xmlDoc.getElementById("profe_003").getElementsByTagName('option')[i].innerHTML;
+    opcionesCheckbox[i]=xmlDoc.getElementById("jklm_005").getElementsByTagName('option')[i].innerHTML;
  }  
  ponerDatosCheckboxHtml(tituloCheckbox,opcionesCheckbox);
- var nres = xmlDoc.getElementById("profe_003").getElementsByTagName('answer').length;
+ var nres = xmlDoc.getElementById("jklm_005").getElementsByTagName('answer').length;
  for (i = 0; i < nres; i++) { 
-  respuestasCheckbox[i]=xmlDoc.getElementById("profe_003").getElementsByTagName("answer")[i].innerHTML;
+  respuestasCheckbox[i]=xmlDoc.getElementById("jklm_005").getElementsByTagName("answer")[i].innerHTML;
  }
 }
 
@@ -85,7 +85,7 @@ function corregirNumber(){
 }
 
 function corregirSelect(){
-  var sel = formElement.elements[1];  
+  var sel = formElement.elements[6];  
   if (sel.selectedIndex==respuestaSelect) {
    darRespuestaHtml("P2: Correcto");
    nota +=1;
