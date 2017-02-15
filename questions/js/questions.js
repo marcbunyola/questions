@@ -47,18 +47,18 @@ function gestionarXml(dadesXml){
  
  //SELECT
  //Recuperamos el título y las opciones, guardamos la respuesta correcta
- var tituloSelect=xmlDoc.getElementsByTagName("title")[6].innerHTML;
+ /*var tituloSelect=xmlDoc.getElementsByTagName("title")[6].innerHTML;
  var opcionesSelect = [];
  var nopt = xmlDoc.getElementById("jklm_007").getElementsByTagName('option').length;
   for (i = 0; i < nopt; i++) { 
     opcionesSelect[i] = xmlDoc.getElementById("jklm_007").getElementsByTagName('option')[i].innerHTML;
  }
  ponerDatosSelectHtml(tituloSelect,opcionesSelect);
- respuestaSelect=parseInt(xmlDoc.getElementsByTagName("answer")[6].innerHTML);
+ respuestaSelect=parseInt(xmlDoc.getElementsByTagName("answer")[6].innerHTML);*/
 
  //CHECKBOX
  //Recuperamos el título y las opciones, guardamos las respuestas correctas
- var tituloCheckbox = xmlDoc.getElementsByTagName("title")[4].innerHTML;
+ /*var tituloCheckbox = xmlDoc.getElementsByTagName("title")[4].innerHTML;
  var opcionesCheckbox = [];
  var nopt = xmlDoc.getElementById("jklm_005").getElementsByTagName('option').length;
  for (i = 0; i < nopt; i++) { 
@@ -69,7 +69,7 @@ function gestionarXml(dadesXml){
  for (i = 0; i < nres; i++) { 
   respuestasCheckbox[i]=xmlDoc.getElementById("jklm_005").getElementsByTagName("answer")[i].innerHTML;
  }
-}
+}*/
 
 //****************************************************************************************************
 //implementación de la corrección
@@ -84,16 +84,16 @@ function corregirNumber(){
   }
 }
 
-function corregirSelect(){
+/*function corregirSelect(){
   var sel = formElement.elements[6];  
   if (sel.selectedIndex==respuestaSelect) {
    darRespuestaHtml("P2: Correcto");
    nota +=1;
   }
   else darRespuestaHtml("P2: Incorrecto");
-}
+}*/
 
-function corregirCheckbox(){
+/*function corregirCheckbox(){
   var f=formElement;
   var escorrecta = [];
   for (i = 0; i < f.color.length; i++) {  //"color" es el nombre asignado a todos los checkbox
@@ -115,7 +115,7 @@ function corregirCheckbox(){
     }   
    }
   }
-}
+}*/
 
 //****************************************************************************************************
 // poner los datos recibios en el HTML
@@ -123,7 +123,7 @@ function ponerDatosInputHtml(t){
  document.getElementById("tituloInput").innerHTML = t;
 }
 
-function ponerDatosSelectHtml(t,opt){
+/*function ponerDatosSelectHtml(t,opt){
   document.getElementById("tituloSelect").innerHTML=t;
   var select = document.getElementsByTagName("select")[0];
   for (i = 0; i < opt.length; i++) { 
@@ -132,9 +132,9 @@ function ponerDatosSelectHtml(t,opt){
     option.value=i+1;
     select.options.add(option);
  }  
-}
+}*/
 
-function ponerDatosCheckboxHtml(t,opt){
+/*function ponerDatosCheckboxHtml(t,opt){
  var checkboxContainer=document.getElementById('checkboxDiv');
  document.getElementById('tituloCheckbox').innerHTML = t;
  for (i = 0; i < opt.length; i++) { 
@@ -148,7 +148,7 @@ function ponerDatosCheckboxHtml(t,opt){
     checkboxContainer.appendChild(input);
     checkboxContainer.appendChild(label);
  }  
-}
+}*/
 
 //****************************************************************************************************
 //Gestionar la presentación de las respuestas
