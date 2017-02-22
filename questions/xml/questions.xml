@@ -4,7 +4,7 @@
 
 <questions>
 
-   	<question id="jklm_001">
+   	<question id="pregunta1">
 		<type>radio</type>
 		<title>1.- Que actores protagonizaron la pelicula Sr y Sra Smith?</title>
 		<option>a) Silvester Stallone y Scarlett Johansson</option>
@@ -14,7 +14,7 @@
 		<answer>2</answer>
 	</question>
 
-	<question id="jklm_002">
+	<question id="pregunta2">
 		<type>radio</type>
 		<title>1.- Quien escribio las mil y una noches?</title>
 		<option>a) Federico Gárcia Lorca</option>
@@ -24,19 +24,19 @@
 		<answer>4</answer>
 	</question>
 
-	<question id="jklm_003">
+	<question id="pregunta3">
 		<type>text</type>
 		<title>¿Que es mas grande el trigre o el leon?</title>
 		<answer>El tigre</answer>
 	</question>
 
-	<question id="jklm_004">
+	<question id="pregunta4">
 		<type>text</type>
 		<title>¿En que año murio Adolf Hitler?</title>
 		<answer>1945</answer>
 	</question>
 
-	<question id="jklm_005">
+	<question id="pregunta5">
 		<type>checkbox</type>
 		<title>A que grupo pertenece la cancion Don't stop me now?</title>
 		<option>a) Queen</option>
@@ -45,7 +45,7 @@
 		<answer>1</answer>
 	</question>
 
-	<question id="jklm_006">
+	<question id="pregunta6">
 		<type>checkbox</type>
 		<title>Cual es la capital de Camerún</title>
 		<option>a) Cuenca</option>
@@ -54,7 +54,7 @@
 		<answer>3</answer>
 	</question>
 
-	<question id="jklm_007">
+	<question id="pregunta7">
 		<type>select</type>
 		<title>5.- ¿Quien ganó el mundial de fútbol de 1966?</title>
 		<option>a) Alemania</option>
@@ -64,7 +64,7 @@
 		<answer>2</answer>
 	</question>
 	
-	<question id="jklm_008">
+	<question id="pregunta8">
 		<type>select</type>
 		<title>5.- ¿Quién pintó La persistencia de la memória?</title>
 		<option>a) Salvador Dalí</option>
@@ -74,7 +74,7 @@
 		<answer>1</answer>
 	</question>
 
-	<question id="jklm_009">
+	<question id="pregunta9">
 		<type>multiple</type>
 			<title>9.-Si viajamos a Francia podemos visitar.. </title>
 			<option>a) El Arco del triunfo</option>
@@ -85,7 +85,7 @@
 			<answer>3</answer>
 	</question>
 	
-	<question id="jklm_010">
+	<question id="pregunta10">
 		<type>multiple</type>
 			<title>9.-Cual de las siguientes marcas fabrica móviles </title>
 			<option>a) Repsol</option>
