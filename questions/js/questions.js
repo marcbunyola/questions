@@ -81,9 +81,7 @@ function corregirNumber(){
    darRespuestaHtml("P1: Correcto!");
    nota +=1;
   } 
-  else { 
-    darRespuestaHtml("P1: Incorrecto");    
-  }
+  else darRespuestaHtml("P1: Incorrecto");
 }
 
 function corregirSelect(){
