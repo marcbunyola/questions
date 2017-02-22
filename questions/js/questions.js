@@ -28,7 +28,7 @@ inicializar();
    gestionarXml(this);
   }
  };
- xhttp.open("GET", "xml/questions.xml", true);
+ xhttp.open("GET", "https://rawgit.com/marcbunyola/questions/master/questions/xml/questions.xml", true);
  xhttp.send();
 }
 
