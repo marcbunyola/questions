@@ -31,7 +31,7 @@
 	</question>
 
 	<question id="pregunta4">
-		<type>text</type>
+		<type>number</type>
 		<title>¿En que año murio Adolf Hitler?</title>
 		<answer>1945</answer>
 	</question>
