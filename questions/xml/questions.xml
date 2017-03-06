@@ -16,7 +16,7 @@
 
 	<question id="pregunta2">
 		<type>radio</type>
-		<title>1.- Quien escribio las mil y una noches?</title>
+		<title>2.- Quien escribio las mil y una noches?</title>
 		<option>a) Federico Gárcia Lorca</option>
 		<option>b) Jacint Verdaguer</option>
 		<option>c) Federico Moccia</option>
@@ -26,19 +26,19 @@
 
 	<question id="pregunta3">
 		<type>text</type>
-		<title>¿Que es mas grande el trigre o el leon?</title>
+		<title>3.- ¿Que es mas grande el trigre o el leon?</title>
 		<answer>El tigre</answer>
 	</question>
 
 	<question id="pregunta4">
 		<type>number</type>
-		<title>¿En que año murio Adolf Hitler?</title>
+		<title>4.- ¿En que año murio Adolf Hitler?</title>
 		<answer>1945</answer>
 	</question>
 
 	<question id="pregunta5">
 		<type>checkbox</type>
-		<title>A que grupo pertenece la cancion Don't stop me now?</title>
+		<title>5.- A que grupo pertenece la cancion Don't stop me now?</title>
 		<option>a) Queen</option>
 		<option>b) The Beattles</option>
 		<option>c) U2</option>
@@ -47,7 +47,7 @@
 
 	<question id="pregunta6">
 		<type>checkbox</type>
-		<title>Cual es la capital de Camerún</title>
+		<title>6.- Cual es la capital de Camerún</title>
 		<option>a) Cuenca</option>
 		<option>b) Liubliana</option>
 		<option>c) Yaundé</option>
@@ -56,7 +56,7 @@
 
 	<question id="pregunta7">
 		<type>select</type>
-		<title>5.- ¿Quien ganó el mundial de fútbol de 1966?</title>
+		<title>7.- ¿Quien ganó el mundial de fútbol de 1966?</title>
 		<option>a) Alemania</option>
 		<option>b) Inglaterra</option>
 		<option>c) Brasil</option>
@@ -66,7 +66,7 @@
 	
 	<question id="pregunta8">
 		<type>select</type>
-		<title>5.- ¿Quién pintó La persistencia de la memória?</title>
+		<title>8.- ¿Quién pintó La persistencia de la memória?</title>
 		<option>a) Salvador Dalí</option>
 		<option>b) Pablo Picasso</option>
 		<option>c) Vincent van Gogh</option>
@@ -87,7 +87,7 @@
 	
 	<question id="pregunta10">
 		<type>multiple</type>
-			<title>9.-Cual de las siguientes marcas fabrica móviles </title>
+			<title>10.-Cual de las siguientes marcas fabrica móviles </title>
 			<option>a) Repsol</option>
 			<option>b) Nike</option>
 			<option>c) Samsung</option>
