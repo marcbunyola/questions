@@ -26,7 +26,7 @@
 
 	<question id="pregunta3">
 		<type>text</type>
-		<title>3.- ¿Qué es más grande el trigre o el león? (escibre "tigre" o "leon")</title>
+		<title>3.- ¿Qué es más grande el tigre o el león? (escibre "tigre" o "leon")</title>
 		<answer>tigre</answer>
 	</question>
 
@@ -47,7 +47,7 @@
 
 	<question id="pregunta6">
 		<type>checkbox</type>
-		<title>6.- ¿Cuál es la capital de Camerún</title>
+		<title>6.- ¿Cuál es la capital de Camerún?</title>
 		<option>a) Cuenca</option>
 		<option>b) Liubliana</option>
 		<option>c) Yaundé</option>
@@ -87,7 +87,7 @@
 	
 	<question id="pregunta10">
 		<type>multiple</type>
-			<title>10.- ¿Cuál de las siguientes marcas fabrica móviles </title>
+			<title>10.- ¿Cuál de las siguientes marcas fabrica móviles?</title>
 			<option>a) Repsol</option>
 			<option>b) Nike</option>
 			<option>c) Samsung</option>
