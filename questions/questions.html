@@ -1,30 +1,69 @@
 <!DOCTYPE html>
 <html>
-<head>
-<script src='js/questions.js'></script>
-</head>
-<body>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel='stylesheet' media='screen and (min-width: 961px)' href='css/d.css'>
+		<link rel='stylesheet' media='screen and (max-width: 960px)' href='css/m.css'>
+		<script src='js/questions.js'></script>
+	</head>
+	<body>
+		<form id='myform'>
+		<br><br><br><br><br><br><br><br><br>
+		<div id='logo'>
+			<img src=".\img\universidad.png">
+		</div>
 
-<form id='myform'>
+
+		<h3 id='preg1'></h3>
+		<div id='radioDiv'></div>
+		<br><br>
+
+  		<h3 id='preg2'></h3>
+ 		<div id='radioDiv2'></div>
+ 		<br><br>
+
+ 		<h3 id='preg3'></h3>
+ 		<input id='tex' type='text'>
+ 		<br><br>
+
+ 		<h3 id='preg4'></h3>
+ 		<input id='num' type='number'>
+ 		<br><br>
+
+		<h3 id='preg5'></h3>
+ 		<div id='checkboxDiv'></div>
+ 		<br><br>
+
+ 		<h3 id='preg6'></h3>
+ 		<div id='checkboxDiv2'></div>
+ 		<br><br>
  
- <h3 id='tituloInput'></h3>
- <input id='num' type='number'>
- <br><br>
+ 		<h3 id='preg7'></h3>
+ 		<select id='sel'>
+  			<option selected value="-1">Selecciona una...</option>
+ 		</select>
+ 		<br><br>
+
+ 		<h3 id='preg8'></h3>
+ 		<select id='sel2'>
+  			<option selected value="-1">Selecciona una...</option>
+ 		</select>
+ 		<br><br>
+
+ 		<h3 id='preg9'></h3>
+ 		<select id='mul'>
+ 		</select>
+ 		<br><br>
+
+ 		<h3 id='preg10'></h3>
+ 		<select id='mul2'>
+ 		</select>
+ 		<br><br>
  
- <h3 id='tituloSelect'></h3>
- <select id='sel'>
-  <option selected value="-1">Selecciona una...</option>
- </select>
- <br><br>
+ 		<input type='submit' value='Corregir'>
+		</form>
  
- <h3 id='tituloCheckbox'></h3><br>
- <div id='checkboxDiv'></div>
- <br><br>
+ 		<div id='resultadosDiv'></div>
  
- <input type='submit' value='Corregir'>
-</form>
- 
- <div id='resultadosDiv'></div>
- 
-</body>
+	</body>
 </html>
