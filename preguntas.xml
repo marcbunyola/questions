@@ -1,97 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="preguntas.xsd">
+<!DOCTYPE questions>
 
-	<question id="preg_001">
-		<type>text</type>
-		<title>1.-¿Cuantos grados rota algo que da una vuelta completa?</title>
-		<answer>360</answer>
-    </question>
+<questions>
 
-	<question id="preg_002">
-		<type>number</type>
-		<title>2.-¿En que año murio Adolf Hitler?</title>
-		<answer>1945</answer>
-    </question>		
-	
-	<question id="preg_003">
-		<type>select</type>
-		<title>3.-¿Quien ganó el mundial de fútbol de 1966?</title>
-		<option>Alemania</option>
-		<option>Inglaterra</option>
-		<option>Brasil</option>
-		<option>Argentina</option> 
-		<answer>1</answer>
-    </question>
-	
-	<question id="preg_004">
-		<type>select</type>
-		<title>4.- ¿Quién pintó La persistencia de la memória?</title>
-		<option>a) Salvador Dalí</option>
-		<option>b) Pablo Picasso</option>
-		<option>c) Vincent van Gogh</option>
-		<option>d) Francisco de Goya</option> 
-		<answer>1</answer>
-	</question>
-
-	<question id="preg_005">
-		<type>checkbox</type>
-		<title>5.- Cual es la capital de Camerún</title>
-		<option>a) Cuenca</option>
-		<option>b) Liubliana</option>
-		<option>c) Yaundé</option>
-		<answer>3</answer>
-	</question>	
-
-	<question id="preg_006">
-		<type>checkbox</type>
-		<title>6.- A que grupo pertenece la cancion Don't stop me now?</title>
-		<option>a) Queen</option>
-		<option>b) The Beattles</option>
-		<option>c) U2</option>
-		<answer>1</answer>
-	</question>
-	
-	<question id="preg_007">
+   	<question id="pregunta1">
 		<type>radio</type>
-		<title>7.- Que actores protagonizaron la pelicula Sr y Sra Smith?</title>
+		<title>1.- ¿Qué actores protagonizaron la película Sr y Sra Smith?</title>
 		<option>a) Silvester Stallone y Scarlett Johansson</option>
 		<option>b) Brad Pitt y Angelina Jolie</option>
 		<option>c) Quentin Tarantino y Megan Fox</option>
 		<option>d) Will Smith y Emma Watson</option>
-		<answer>2</answer>
+		<answer>1</answer>
 	</question>
-	
-	<question id="preg_008">
+
+	<question id="pregunta2">
 		<type>radio</type>
-		<title>8.- Quien escribio las mil y una noches?</title>
-		<option>a) Federico Gárcia Lorca</option>
+		<title>2.- ¿Quién escribió las mil y una noches?</title>
+		<option>a) Federico Garcia Lorca</option>
 		<option>b) Jacint Verdaguer</option>
 		<option>c) Federico Moccia</option>
 		<option>d) Es anónimo</option>
-		<answer>4</answer>
+		<answer>3</answer>
+	</question>
+
+	<question id="pregunta3">
+		<type>text</type>
+		<title>3.- ¿Qué es más grande el tigre o el león? (escibre "tigre" o "leon")</title>
+		<answer>tigre</answer>
+	</question>
+
+	<question id="pregunta4">
+		<type>number</type>
+		<title>4.- ¿En que año murió Adolf Hitler?</title>
+		<answer>1945</answer>
+	</question>
+
+	<question id="pregunta5">
+		<type>checkbox</type>
+		<title>5.- ¿A qué grupo pertenece la cancion Don't stop me now?</title>
+		<option>a) Queen</option>
+		<option>b) The Beattles</option>
+		<option>c) U2</option>
+		<answer>0</answer>
+	</question>
+
+	<question id="pregunta6">
+		<type>checkbox</type>
+		<title>6.- ¿Cuál es la capital de Camerún?</title>
+		<option>a) Cuenca</option>
+		<option>b) Liubliana</option>
+		<option>c) Yaundé</option>
+		<answer>2</answer>
+	</question>
+
+	<question id="pregunta7">
+		<type>select</type>
+		<title>7.- ¿Quién ganó el mundial de fútbol de 1966?</title>
+		<option>a) Alemania</option>
+		<option>b) Inglaterra</option>
+		<option>c) Brasil</option>
+		<option>d) Argentina</option> 
+		<answer>1</answer>
 	</question>
 	
-	<question id="preg_009">
+	<question id="pregunta8">
+		<type>select</type>
+		<title>8.- ¿Quién pintó "La persistencia de la memória"?</title>
+		<option>a) Salvador Dalí</option>
+		<option>b) Pablo Picasso</option>
+		<option>c) Vincent van Gogh</option>
+		<option>d) Francisco de Goya</option> 
+		<answer>0</answer>
+	</question>
+
+	<question id="pregunta9">
 		<type>multiple</type>
-			<title>9.-Si viajamos a Francia podemos visitar.. </title>
-			<option>a) El Arco del triunfo</option>
-			<option>b) El museo del prado</option>
-			<option>c) La torre Eiffel</option>
+			<title>9.- Si viajamos a Francia podemos visitar.. </title>
+			<option>a) El Arco del Triunfo</option>
+			<option>b) El Museo del Prado</option>
+			<option>c) La Torre Eiffel</option>
 			<option>d) El Bronx</option>
-			<answer>1</answer>
-			<answer>3</answer>
+			<answer>0</answer>
+			<answer>2</answer>
 	</question>
 	
-	<question id="preg_010">
+	<question id="pregunta10">
 		<type>multiple</type>
-			<title>10.-Cual de las siguientes marcas fabrica móviles </title>
+			<title>10.- ¿Cuál de las siguientes marcas fabrica móviles?</title>
 			<option>a) Repsol</option>
 			<option>b) Nike</option>
 			<option>c) Samsung</option>
 			<option>d) Huawei</option>
+			<answer>2</answer>
 			<answer>3</answer>
-			<answer>4</answer>
 	</question>
 
 </questions>
