@@ -1,0 +1,43 @@
+body,html{
+	margin:0%;
+}
+body{
+	width:96%;
+	padding:2%;
+	background-color:black;
+	padding-bottom: 2%;
+}
+body,input,select,label{
+	font-size:5vw;
+}
+h3{
+	font-size:6vw;
+}
+input,select{
+	width:60%;
+}
+input[type=checkbox]{
+	width:5%;zoom:1.5;
+}
+form{
+	background-color:tomato;
+	padding:1%;
+}
+input[type=radio]{
+	width:4%;
+	zoom:1.5;
+}
+#logo{
+	position: absolute;
+	text-align: center;
+ 	top: 0.9%;
+ 	height: 90%;
+ 	width: 100%;
+}
+#logo img{
+	height: 30%;	
+}
+#resultadosDiv{
+	font-size:6vw;
+	color:white;
+}
